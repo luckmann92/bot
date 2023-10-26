@@ -159,8 +159,9 @@ return [
         /*
          * Package Service Providers...
          */
-
-        /*
+        //Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+        App\Providers\OpenAIServiceProvider::class,
+        /*php artisan ide-helper:meta
          * Application Service Providers...
          */
         App\Providers\AppServiceProvider::class,
